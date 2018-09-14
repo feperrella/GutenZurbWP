@@ -1,2 +1,4 @@
 # GutenZurbWP
-Wordpress Theme using Zurb Foundation and Gutenberg Plugin.
+Wordpress Theme using Zurb Foundation 6 and Gutenberg Plugin.
+
+Currently using Zurb Foundation 6.4.3

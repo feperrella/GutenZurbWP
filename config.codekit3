@@ -19,11 +19,64 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/app.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/app.css.map",
+		"oF": 0
+		},
+	"\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/images\/apple-icon-touch.png": {
+		"ft": 32768,
+		"iS": 49705,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-touch.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/favicon.ico",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/js\/app-min.js": {
@@ -91,6 +144,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -108,6 +168,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/scss\/_main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_main.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/scss\/_settings.scss": {
 		"aP": 0,
@@ -134,6 +207,30 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/style-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/template-parts\/content-none.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-parts\/content-none.php",
+		"oF": 0
+		},
+	"\/template-parts\/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-parts\/content.php",
+		"oF": 0
 		}
 	},
 "hooks": [
