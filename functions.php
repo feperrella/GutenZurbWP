@@ -45,37 +45,48 @@ function gutenzurb_theme_setup() {
 	add_image_size( 'custom-size', 220, 220, array( 'left', 'top' ) );
 
 	// This theme uses wp_nav_menu() in two locations.
-	register_nav_menus( array(
-		'top'    => __( 'Primary', 'gutenzurb_lang' ),
-		'social' => __( 'Social', 'gutenzurb_lang' ),
-	) );
+	register_nav_menus(
+		array(
+			'top'    => __( 'Primary', 'gutenzurb_lang' ),
+			'social' => __( 'Social', 'gutenzurb_lang' ),
+		)
+	);
 
 	// Add theme support for HTML5 Semantic Markup.
-	add_theme_support( 'html5', array(
-		'search-form',
-		'comment-form',
-		'comment-list',
-		'gallery',
-		'caption',
-	));
+	add_theme_support(
+		'html5',
+		array(
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+		)
+	);
 
 	// Enable support for Post Formats. See: https://codex.wordpress.org/Post_Formats.
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-		'gallery',
-		'audio',
-	) );
+	add_theme_support(
+		'post-formats',
+		array(
+			'aside',
+			'image',
+			'video',
+			'quote',
+			'link',
+			'gallery',
+			'audio',
+		)
+	);
 
 	// Add theme support for Custom Logo.
-	add_theme_support( 'custom-logo', array(
-		'width'      => 250,
-		'height'     => 250,
-		'flex-width' => true,
-	) );
+	add_theme_support(
+		'custom-logo',
+		array(
+			'width'      => 250,
+			'height'     => 250,
+			'flex-width' => true,
+		)
+	);
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
@@ -93,35 +104,53 @@ add_action( 'after_setup_theme', 'gutenzurb_theme_setup' );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function gutenzurb_widgets_init() {
-	register_sidebar( array(
-		'name'          => __( 'Left Sidebar', 'gutenzurb_lang' ),
-		'id'            => 'sidebar-left',
-		'description'   => __( 'Sidebar displayed at the left side of the content.', 'gutenzurb_lang' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
+	register_sidebar(
+		array(
+			'name'          => __( 'Left Sidebar', 'gutenzurb_lang' ),
+			'id'            => 'sidebar-left',
+			'description'   => __( 'Sidebar displayed at the left side of the content.', 'gutenzurb_lang' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
 
-	register_sidebar( array(
-		'name'          => __( 'Right Sidebar', 'gutenzurb_lang' ),
-		'id'            => 'sidebar-right',
-		'description'   => __( 'Sidebar displayer at the right side of the content.', 'gutenzurb_lang' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
+	register_sidebar(
+		array(
+			'name'          => __( 'Right Sidebar', 'gutenzurb_lang' ),
+			'id'            => 'sidebar-right',
+			'description'   => __( 'Sidebar displayer at the right side of the content.', 'gutenzurb_lang' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
 
-	register_sidebar( array(
-		'name'          => __( 'Footer Sidebar', 'gutenzurb_lang' ),
-		'id'            => 'sidebar-footer',
-		'description'   => __( 'Sidebar dispplayed at the footer of the website.', 'gutenzurb_lang' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
+	register_sidebar(
+		array(
+			'name'          => __( 'Top Sidebar', 'gutenzurb_lang' ),
+			'id'            => 'sidebar-top',
+			'description'   => __( 'Sidebar dispplayed at the top of the website, above the menu header.', 'gutenzurb_lang' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => __( 'Footer Sidebar', 'gutenzurb_lang' ),
+			'id'            => 'sidebar-footer',
+			'description'   => __( 'Sidebar dispplayed at the footer of the website.', 'gutenzurb_lang' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
 }
 add_action( 'widgets_init', 'gutenzurb_widgets_init' );
 

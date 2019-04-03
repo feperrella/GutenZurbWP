@@ -25,7 +25,7 @@ get_header(); ?>
 <?php else : ?>
 
 	<header class="page-header">
-		<h2 class="page-title"><?php _e( 'Posts', 'gutenzurb_lang' ); ?></h2>
+		<h2 class="page-title"><?php esc_attr_e( 'Posts', 'gutenzurb_lang' ); ?></h2>
 	</header>
 
 <?php endif; ?>

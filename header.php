@@ -23,10 +23,10 @@
 	 * else includes pre-made.
 	 */
 	if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) {
-	?>
+		?>
 		<link rel="shortcut icon" href="<?php echo esc_html( get_template_directory_uri() ); ?>/images/favicon.ico">
 		<link href="<?php echo esc_html( get_template_directory_uri() ); ?>/images/apple-icon-touch.png" rel="apple-touch-icon" />	
-	<?php
+		<?php
 	}
 
 	wp_head();
