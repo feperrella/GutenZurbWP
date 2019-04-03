@@ -14,6 +14,8 @@
 
 ?>
 
+	<?php get_sidebar( 'footer' ); ?>
+
 	<footer class="footer grid-x grid-padding-x grid-padding-y" role="contentinfo">
 		<div class="cell small-6">
 			<small class="source-org copyright">&copy; <?php echo date( 'Y' ); // WPCS: xss ok. ?> <?php bloginfo( 'name' ); ?>.</small>
