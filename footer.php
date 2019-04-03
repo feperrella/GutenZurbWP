@@ -21,7 +21,7 @@
 			<small class="source-org copyright">&copy; <?php echo date( 'Y' ); // WPCS: xss ok. ?> <?php bloginfo( 'name' ); ?>.</small>
 		</div>
 		<div class="cell small-6 text-right">
-			<small class="developer">Developed by <a href="https://fapnet.com.br" title="Developed by FAPNET">FAPNET</a></small>
+			<small class="developer">Developed by <a href="https://www.fapnet.com.br" title="Developed by FAPNET">FAPNET</a></small>
 		</div>
 	</footer><!-- .footer -->
 
