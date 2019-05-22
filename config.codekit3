@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/.gitmodules": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitmodules",
+		"oF": 0
+		},
 	"/css/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -69,6 +77,41 @@
 		"oA": 0,
 		"oAP": "/images/favicon.ico",
 		"oF": 0
+		},
+	"/inc/class-microdata-nav-walker.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inc/class-microdata-nav-walker.php",
+		"oF": 0
+		},
+	"/inc/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inc/LICENSE",
+		"oF": 0
+		},
+	"/inc/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inc/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -149,6 +192,14 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -222,6 +273,22 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"/sidebar-footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sidebar-footer.php",
+		"oF": 0
+		},
+	"/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sidebar.php",
+		"oF": 0
 		},
 	"/style.css": {
 		"aP": 1,
