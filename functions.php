@@ -161,7 +161,7 @@ add_action( 'widgets_init', 'gutenzurb_widgets_init' );
 function gutenzurb_scripts() {
 
 	// Theme stylesheet.
-	wp_enqueue_style( 'app-style', get_stylesheet_uri() . '/css/app.css', false, '0.0.1', false );
+	wp_enqueue_style( 'app-style', get_template_directory_uri() . '/css/app.css', false, '0.0.1', false );
 
 	// Use updated jQuery.
 	if ( ! is_admin() ) {
