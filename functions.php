@@ -166,7 +166,7 @@ function gutenzurb_scripts() {
 	// Use updated jQuery.
 	if ( ! is_admin() ) {
 		wp_deregister_script( 'jquery' );
-		wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', false, '2.2.4', false );
+		wp_register_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js', false, '3.5.0', false );
 		wp_enqueue_script( 'jquery' );
 	}
 
