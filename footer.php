@@ -9,7 +9,7 @@
  * @package GutenZurbWP
  * @author FAPNET
  * @link https://fapnet.com.br
- * @version 0.0.1
+ * @version 0.0.2
  */
 
 ?>
@@ -18,7 +18,7 @@
 
 	<footer class="footer grid-x grid-padding-x grid-padding-y" role="contentinfo">
 		<div class="cell small-6">
-			<small class="source-org copyright">&copy; <?php echo date( 'Y' ); // WPCS: xss ok. ?> <?php bloginfo( 'name' ); ?>.</small>
+			<small class="source-org copyright">&copy; <?php echo esc_attr( date( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>.</small>
 		</div>
 		<div class="cell small-6 text-right">
 			<small class="developer">Developed by <a href="https://www.fapnet.com.br" title="Developed by FAPNET">FAPNET</a></small>

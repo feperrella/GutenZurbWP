@@ -1,4 +1,4 @@
 # GutenZurbWP
 Wordpress Theme using Zurb Foundation 6 and Gutenberg Plugin.
 
-Currently using Zurb Foundation 6.4.3
+Currently using Zurb Foundation 6.6.3

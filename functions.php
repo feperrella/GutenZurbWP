@@ -5,7 +5,7 @@
  * @package GutenZurbWP
  * @author  FAPNET
  * @link    https://fapnet.com.br
- * @version 0.0.1
+ * @version 0.0.2
  */
 
 /**
@@ -171,12 +171,12 @@ function gutenzurb_scripts() {
 	}
 
 	// Zurb Foundation Scripts.
-	wp_enqueue_script( 'what-input', 'https://cdnjs.cloudflare.com/ajax/libs/what-input/5.0.5/what-input.min.js', array( 'jquery' ), '5.0.5', true );
-	wp_enqueue_script( 'foundation', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js', array( 'jquery' ), '6.4.3', true );
+	wp_enqueue_script( 'what-input', 'https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.7/what-input.min.js', array( 'jquery' ), '5.2.7', true );
+	wp_enqueue_script( 'foundation', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js', array( 'jquery' ), '6.6.3', true );
 
 	// Fontawesome.
 	// integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous".
-	wp_enqueue_script( 'fontawesome', 'https://use.fontawesome.com/releases/v5.3.1/js/all.js', array(), '5.3.1', true );
+	wp_enqueue_script( 'fontawesome', 'https://use.fontawesome.com/releases/v5.13.0/js/all.js', array(), '5.13.0', true );
 
 	// Theme Script.
 	wp_enqueue_script( 'app-script', get_template_directory_uri() . '/js/app-min.js', array( 'jquery' ), '0.0.1', true );
