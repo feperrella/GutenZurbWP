@@ -16,14 +16,14 @@
   "dependencies": {
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.0",
-    "motion-ui": "~1.2.2",
+    "motion-ui": "~2.0.3",
     "what-input": "^5.2.7"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-load-plugins": "^1.1.0",
-    "gulp-sass": "^2.1.0"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.1.0"
   },
   "repository": {
     "type": "git",
