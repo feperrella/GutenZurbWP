@@ -233,4 +233,4 @@ function add_async_attribute( $tag, $handle ) {
 add_filter( 'script_loader_tag', 'add_async_attribute', 10, 2 );
 
 // Import Microdata Menu Walker
-require_once '/inc/class-microdata-nav.walker';
+require_once '/inc/class-microdata-nav-walker.php';

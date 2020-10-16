@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "foundation-sites": "^6.6.3",
-    "jquery": "^3.5.0",
+    "jquery": "^3.5.1",
     "motion-ui": "~2.0.3",
-    "what-input": "^5.2.7"
+    "what-input": "^5.2.10"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-load-plugins": "^2.0.3",
+    "gulp-load-plugins": "^2.0.5",
     "gulp-sass": "^4.1.0"
   },
   "repository": {
